@@ -3,8 +3,8 @@ Checks if people are live on YouTube. Is subject to change if YouTube decides to
 As of March 21 2021, however, it still works. So it's great.
 
 The script has three main functions:
-LiveChecker(), to initialize the object itself (obj = LiveChecker()),
-gettp(), to get streamer states (obj.gettp()),
+LiveChecker(), to initialize the object itself (obj = LiveChecker()),\n
+gettp(), to get streamer states (obj.gettp()),\n
 and getRes(), to get the states formatted into a string, usually in Alphabetical or Numerical order. (print(obj.getRes))
 
 By default, it tracks no one. You can add YouTubers to track yourself, however, by manually changing the dictionary that the gettp() function loops through, self.streamers.
